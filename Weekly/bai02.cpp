@@ -2,14 +2,10 @@
 
 using namespace std;
 
-const int MAX_M = 1005; // gioi han lai o 1e6
-const int MAX_N = 1005;
-int grid[MAX_M][MAX_N];  
-
 int main() {
     int M, N, K, Q;
     cin >> M >> N >> K >> Q;
-    
+    int grid[M][N];
     for (int i = 0; i < M; i++) {
         for (int j = 0; j < N; j++) {
             grid[i][j] = 0;
